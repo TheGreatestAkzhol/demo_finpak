@@ -65,7 +65,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Add currency</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form method="POST" action="/ServletGet">
+            <form method="POST" action="/finpak/ServletGet">
                 <div class="modal-body">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Name</label>

@@ -20,7 +20,7 @@ public class ServletGet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getSession().setAttribute("currencies", currencies);
-        response.sendRedirect("/currency");
+        response.sendRedirect("/finpak/currency");
     }
 
     @Override
@@ -57,6 +57,6 @@ public class ServletGet extends HttpServlet {
             default:
                 System.out.println("There's no such currency like this" + logo);
         }
-        response.sendRedirect("/ServletGet");
+        response.sendRedirect("/finpak/ServletGet");
     }
 }
