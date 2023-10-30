@@ -1,0 +1,27 @@
+#cssTable
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.cssImage
+{
+    width: 50px;
+    height: 40px;
+}
+.cssLightGreen{
+    background-color: lightgreen;
+}
+.cssLightGreenTable{
+    --bs-table-bg: lightgreen !important;
+}
+.currency{
+    font-weight: bold;
+    font-family: "Arial Black";
+    border-radius: 15px;
+    background-color: darkgreen;
+    color:white;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    box-shadow: inset 0px 0px 4px 1px #198754, 0px 0px 5px 1px rgb(0 0 0), inset 0px 0px 1px 1px #000;
+
+}
