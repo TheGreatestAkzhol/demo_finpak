@@ -14,7 +14,7 @@ public class ServletGet extends HttpServlet {
     static Currency currency1 = new Currency("https://flagicons.lipis.dev/flags/4x3/ru.svg", "Russia", "RUB", (float) 6.3, 5);
     static Currency currency2 = new Currency("https://flagicons.lipis.dev/flags/4x3/um.svg", "United state of America", "USD", 400, 500);
     static Currency currency3 = new Currency("https://flagicons.lipis.dev/flags/4x3/eu.svg", "Europe", "EURO", 500, 1000);
-    static Currency currency4 = new Currency("https://flagicons.lipis.dev/flags/4x3/kg.svg", "Kyrgyzstan", "KRG", 500, 1000);
+    static Currency currency4 = new Currency("https://flagicons.lipis.dev/flags/4x3/kg.svg", "Republic Kyrgyzstan", "KRG", 500, 1000);
     static Currency currency5 = new Currency("https://flagicons.lipis.dev/flags/4x3/jp.svg", "Japan", "YEN", 500, 1000);
 
     @Override
